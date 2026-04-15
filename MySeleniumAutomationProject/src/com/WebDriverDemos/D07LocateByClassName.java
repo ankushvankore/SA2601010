@@ -16,6 +16,7 @@ public class D07LocateByClassName {
 		
 		WebElement searchBox = driver.findElement(By.className("gLFyf"));
 		searchBox.sendKeys("Funny Dogs");
+		
 		searchBox.sendKeys(Keys.ENTER);			//Will hit the Enter key from keyboard
 	}
 
