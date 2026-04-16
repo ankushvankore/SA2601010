@@ -1,5 +1,7 @@
 package com.WebDriverDemos;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,7 +30,23 @@ public class D18HandlingDropdownList {
 		//Create object of Select class and pass this control to this object
 		Select countries = new Select(drpList);
 		//Now all the operations on drop down list can be performed only via this countries object
-		System.out.println(countries.getFirstSelectedOption().getText());
+		
+		System.out.println("Selected Country: " + countries.getFirstSelectedOption().getText());
+		List<WebElement>allCountries = countries.getOptions();
+		
+		System.out.println("Total countries: " + allCountries.size());
+
+		/*int i = 0;
+		for(WebElement c : allCountries) {
+			System.out.println(i + ". " + c.getText());
+			i++;
+		}*/
+		
+		//countries.selectByVisibleText("Denmark");
+		//countries.selectByContainsVisibleText("Den");
+		//countries.selectByValue("59");
+		countries.selectByIndex(57);
+		System.out.println("Selected Country: " + countries.getFirstSelectedOption().getText());
 	}
 
 }
