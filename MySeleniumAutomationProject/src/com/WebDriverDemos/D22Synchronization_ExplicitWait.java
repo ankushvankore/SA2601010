@@ -14,10 +14,10 @@ public class D22Synchronization_ExplicitWait {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		driver.get("https://omayo.blogspot.com/");
 		
+		//ExplicitWait
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		
 		WebElement cbox = driver.findElement(By.id("dte"));
@@ -28,9 +28,11 @@ public class D22Synchronization_ExplicitWait {
 		
 		driver.findElement(By.xpath("//*[@id=\"HTML47\"]/div[1]/button")).click();
 		
-		wait.until(ExpectedConditions.elementToBeClickable(cbox));
+		//wait.until(ExpectedConditions.elementToBeClickable(cbox));
+		//cbox.click();
 		
-		cbox.click();
+		wait.until(ExpectedConditions.elementToBeClickable(cbox)).click();
+		//ExpectedConditions --> here we can put the condition for wait
 		
 		System.out.println("After");
 		System.out.println("Enabled : " + cbox.isEnabled());
