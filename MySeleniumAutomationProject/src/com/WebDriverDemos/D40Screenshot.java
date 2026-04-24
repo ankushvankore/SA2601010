@@ -37,6 +37,7 @@ public class D40Screenshot {
 		File f1 = t1.getScreenshotAs(OutputType.FILE);
 		//Will take a screenshot and will store virtually in f1 object
 		FileHandler.copy(f1, new File("Screenshots\\JQueryScreenshot.jpeg"));
+		//Will store f1 object physically in the file
 		
 		System.out.println("Screenshot captured!!!");
 		driver.close();

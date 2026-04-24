@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-24T22:16:34 IST" name="Default suite" finished-at="2026-04-24T22:16:48 IST" duration-ms="14732">
+    <groups>
+    </groups>
+    <test started-at="2026-04-24T22:16:34 IST" name="Default test" finished-at="2026-04-24T22:16:48 IST" duration-ms="14732">
+      <class name="com.Assignments.SauseLoginAssignment">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Assignments.SauseLoginAssignment@22555ebf]" started-at="2026-04-24T22:16:34 IST" name="beforeTest" finished-at="2026-04-24T22:16:38 IST" duration-ms="4340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login1()[pri:0, instance:com.Assignments.SauseLoginAssignment@22555ebf]" started-at="2026-04-24T22:16:38 IST" name="login1" finished-at="2026-04-24T22:16:40 IST" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Assignments.SauseLoginAssignment@22555ebf]" started-at="2026-04-24T22:16:40 IST" name="logout" finished-at="2026-04-24T22:16:40 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="login2()[pri:0, instance:com.Assignments.SauseLoginAssignment@22555ebf]" started-at="2026-04-24T22:16:40 IST" name="login2" finished-at="2026-04-24T22:16:46 IST" duration-ms="5767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Assignments.SauseLoginAssignment@22555ebf]" started-at="2026-04-24T22:16:46 IST" name="logout" finished-at="2026-04-24T22:16:47 IST" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="login3()[pri:0, instance:com.Assignments.SauseLoginAssignment@22555ebf]" started-at="2026-04-24T22:16:47 IST" name="login3" finished-at="2026-04-24T22:16:47 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login3 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Assignments.SauseLoginAssignment@22555ebf]" started-at="2026-04-24T22:16:47 IST" name="logout" finished-at="2026-04-24T22:16:47 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Assignments.SauseLoginAssignment@22555ebf]" started-at="2026-04-24T22:16:47 IST" name="afterTest" finished-at="2026-04-24T22:16:48 IST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.Assignments.SauseLoginAssignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
