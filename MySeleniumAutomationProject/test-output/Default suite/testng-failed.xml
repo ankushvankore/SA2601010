@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Assignments.SauseLoginAssignment">
+      <class name="com.TestNGDemos.D05GoogleAssignment">
         <methods>
-          <include name="login2"/>
-          <include name="logout"/>
+          <include name="afterMethod"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="login3"/>
+          <include name="advtTest"/>
+          <include name="imagesTest"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.Assignments.SauseLoginAssignment -->
+      </class> <!-- com.TestNGDemos.D05GoogleAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
