@@ -29,7 +29,6 @@ public class D07AssertionDemo {
 		//Assert.assertEquals(actUrl, expUrl);
 		//Assert.assertTrue(actUrl.equals(expUrl));
 		Assert.assertTrue(actUrl.contains("inventory"));
-		
 	}
 
 	@DataProvider

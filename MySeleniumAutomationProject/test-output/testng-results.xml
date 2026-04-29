@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-28T22:20:25 IST" name="Google Tests" finished-at="2026-04-28T22:20:41 IST" duration-ms="15332">
+  <suite started-at="2026-04-29T22:23:52 IST" name="Default suite" finished-at="2026-04-29T22:23:58 IST" duration-ms="6748">
     <groups>
-      <group name="TopLinks">
-        <method signature="D05GoogleAssignment.gmailTest()[pri:1, instance:com.TestNGDemos.D05GoogleAssignment@175c2241]" name="gmailTest" class="com.TestNGDemos.D05GoogleAssignment"/>
-        <method signature="D05GoogleAssignment.imagesTest()[pri:2, instance:com.TestNGDemos.D05GoogleAssignment@175c2241]" name="imagesTest" class="com.TestNGDemos.D05GoogleAssignment"/>
-      </group> <!-- TopLinks -->
     </groups>
-    <test started-at="2026-04-28T22:20:25 IST" name="Execute Group" finished-at="2026-04-28T22:20:41 IST" duration-ms="15332">
-      <class name="com.TestNGDemos.D05GoogleAssignment">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D05GoogleAssignment@175c2241]" started-at="2026-04-28T22:20:25 IST" name="beforeTest" finished-at="2026-04-28T22:20:29 IST" duration-ms="4119" status="PASS">
+    <test started-at="2026-04-29T22:23:52 IST" name="Default test" finished-at="2026-04-29T22:23:58 IST" duration-ms="6748">
+      <class name="com.TestNGDemos.D10POM_Client_Rediff">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D10POM_Client_Rediff@6c6cb480]" started-at="2026-04-29T22:23:52 IST" name="beforeTest" finished-at="2026-04-29T22:23:57 IST" duration-ms="5039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05GoogleAssignment@175c2241]" started-at="2026-04-28T22:20:30 IST" name="beforeMethod" finished-at="2026-04-28T22:20:32 IST" duration-ms="2037" status="PASS">
+        <test-method signature="register()[pri:0, instance:com.TestNGDemos.D10POM_Client_Rediff@6c6cb480]" started-at="2026-04-29T22:23:57 IST" name="register" finished-at="2026-04-29T22:23:58 IST" duration-ms="1572" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="gmailTest()[pri:1, instance:com.TestNGDemos.D05GoogleAssignment@175c2241]" started-at="2026-04-28T22:20:32 IST" name="gmailTest" finished-at="2026-04-28T22:20:37 IST" duration-ms="4993" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gmailTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05GoogleAssignment@175c2241]" started-at="2026-04-28T22:20:37 IST" name="afterMethod" finished-at="2026-04-28T22:20:37 IST" duration-ms="38" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05GoogleAssignment@175c2241]" started-at="2026-04-28T22:20:37 IST" name="beforeMethod" finished-at="2026-04-28T22:20:38 IST" duration-ms="1685" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="imagesTest()[pri:2, instance:com.TestNGDemos.D05GoogleAssignment@175c2241]" started-at="2026-04-28T22:20:38 IST" name="imagesTest" finished-at="2026-04-28T22:20:40 IST" duration-ms="1746" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- imagesTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05GoogleAssignment@175c2241]" started-at="2026-04-28T22:20:40 IST" name="afterMethod" finished-at="2026-04-28T22:20:40 IST" duration-ms="43" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D05GoogleAssignment@175c2241]" started-at="2026-04-28T22:20:40 IST" name="afterTest" finished-at="2026-04-28T22:20:41 IST" duration-ms="515" status="PASS">
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D10POM_Client_Rediff@6c6cb480]" started-at="2026-04-29T22:23:58 IST" name="afterTest" finished-at="2026-04-29T22:23:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D05GoogleAssignment -->
-    </test> <!-- Execute Group -->
-  </suite> <!-- Google Tests -->
+      </class> <!-- com.TestNGDemos.D10POM_Client_Rediff -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
