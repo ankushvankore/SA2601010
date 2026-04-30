@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGDemos.D10POM_Client_Rediff">
+      <class name="com.TestNGDemos.D12CreateStudentList">
         <methods>
-          <include name="register"/>
           <include name="beforeTest"/>
+          <include name="createList"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.TestNGDemos.D10POM_Client_Rediff -->
+      </class> <!-- com.TestNGDemos.D12CreateStudentList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

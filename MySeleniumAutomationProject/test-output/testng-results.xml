@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-29T22:23:52 IST" name="Default suite" finished-at="2026-04-29T22:23:58 IST" duration-ms="6748">
+  <suite started-at="2026-04-30T22:22:24 IST" name="Default suite" finished-at="2026-04-30T22:22:26 IST" duration-ms="1731">
     <groups>
     </groups>
-    <test started-at="2026-04-29T22:23:52 IST" name="Default test" finished-at="2026-04-29T22:23:58 IST" duration-ms="6748">
-      <class name="com.TestNGDemos.D10POM_Client_Rediff">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D10POM_Client_Rediff@6c6cb480]" started-at="2026-04-29T22:23:52 IST" name="beforeTest" finished-at="2026-04-29T22:23:57 IST" duration-ms="5039" status="PASS">
+    <test started-at="2026-04-30T22:22:24 IST" name="Default test" finished-at="2026-04-30T22:22:26 IST" duration-ms="1731">
+      <class name="com.TestNGDemos.D12CreateStudentList">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D12CreateStudentList@10683d9d]" started-at="2026-04-30T22:22:24 IST" name="beforeTest" finished-at="2026-04-30T22:22:25 IST" duration-ms="1026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="register()[pri:0, instance:com.TestNGDemos.D10POM_Client_Rediff@6c6cb480]" started-at="2026-04-29T22:23:57 IST" name="register" finished-at="2026-04-29T22:23:58 IST" duration-ms="1572" status="PASS">
+        <test-method signature="createList()[pri:0, instance:com.TestNGDemos.D12CreateStudentList@10683d9d]" started-at="2026-04-30T22:22:25 IST" name="createList" finished-at="2026-04-30T22:22:26 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D10POM_Client_Rediff@6c6cb480]" started-at="2026-04-29T22:23:58 IST" name="afterTest" finished-at="2026-04-29T22:23:58 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- createList -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D12CreateStudentList@10683d9d]" started-at="2026-04-30T22:22:26 IST" name="afterTest" finished-at="2026-04-30T22:22:26 IST" duration-ms="525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D10POM_Client_Rediff -->
+      </class> <!-- com.TestNGDemos.D12CreateStudentList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
