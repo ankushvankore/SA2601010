@@ -24,6 +24,7 @@ public class D10POM_Client_Rediff {
 		r1.setRediffId("akansha");
 		r1.setPassword("akansha@123");
 		r1.setBirthDate("29", "SEP", "2000");
+		r1.selectGender("Female");
 		String msg = r1.checkAvailablity();
 		Assert.assertTrue(msg.contains("Yippie"));
 	}
@@ -34,6 +35,7 @@ public class D10POM_Client_Rediff {
 		r1.setRediffId("pratik_m789654");
 		r1.setPassword("Pratik@123");
 		r1.setBirthDate("15", "MAR", "2000");
+		r1.selectGender("Male");
 		//r1.checkAvailablity();
 		Assert.assertTrue(r1.checkAvailablity().contains("Yippie"));
 	}

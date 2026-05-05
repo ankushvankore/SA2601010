@@ -10,8 +10,10 @@ import org.openqa.selenium.support.ui.Select;
 public class RediffUtility {
 	WebDriver driver;
 	
-	@FindBy(xpath = "/html/body/div[2]/div[2]/form/div/div[2]/input")WebElement fullName;
-	@FindBy(css = "input[name^='login']")WebElement rediffId;
+	@FindBy(xpath = "/html/body/div[2]/div[2]/form/div/div[2]/input")
+	private WebElement fullName;
+	@FindBy(css = "input[name^='login']")
+	private WebElement rediffId;
 	@FindBy(id = "newpasswd")WebElement password;
 	@FindBy(id = "newpasswd1")WebElement newPassword;
 	@FindBy(className = "day")WebElement dayDD;
@@ -60,5 +62,12 @@ public class RediffUtility {
 		System.out.println("Message: " + msg);
 		
 		return msg;
+	}
+	
+	public void selectGender(String gn) {
+		if(gn.equals("Male"))
+			driver.findElement(By.xpath("//input[@value='m']")).click();
+		else
+			driver.findElement(By.xpath("//input[@value='f']")).click();
 	}
 }
