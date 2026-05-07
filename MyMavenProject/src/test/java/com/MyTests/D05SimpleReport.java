@@ -18,7 +18,8 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class D05SimpleReport {
 
 	/*
-	 * For using ExtentReport you need to add following Dependency 1. ExtentReports
+	 * For using ExtentReport you need to add following Dependency 
+	 * 1. ExtentReports
 	 */
 
 	public static void main(String[] args) {
