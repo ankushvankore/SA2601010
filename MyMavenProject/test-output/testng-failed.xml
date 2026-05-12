@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MyTests.D06DetailedReport">
+      <class name="com.MyTests.D12InvocationTimeoutDemo">
         <methods>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="login2"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.MyTests.D06DetailedReport -->
+      </class> <!-- com.MyTests.D12InvocationTimeoutDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

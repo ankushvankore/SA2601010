@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGDemos.D10POM_Client_Rediff">
+      <class name="com.AssignmentSolutions.OrangeHRM_DDF_Assignment">
         <methods>
-          <include name="register1"/>
-          <include name="beforeTest"/>
-          <include name="refreshPage"/>
+          <include name="test"/>
           <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.TestNGDemos.D10POM_Client_Rediff -->
+      </class> <!-- com.AssignmentSolutions.OrangeHRM_DDF_Assignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
